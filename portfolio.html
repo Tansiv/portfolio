@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tansiv Jubayer</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;     
+            padding: 0;
+            background: linear-gradient(135deg, #121212, #1e272e);
+            color: #F5F5F5;
+        }
+        header {
+            background: linear-gradient(135deg, #0a84ff, #2e8eff);
+            color: #F5F5F5;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: #1e272e;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        section h2 {
+            color: #0a84ff;
+            border-bottom: 3px solid #2e8eff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: circle;
+            padding-left: 1.5rem;
+        }
+        ul li {
+            margin-bottom: 0.7rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.8rem;
+            margin-top: 1rem;
+            background: linear-gradient(135deg, #0a84ff, #2e8eff);
+            color: #F5F5F5;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 132, 255, 0.5);
+        }
+        footer {
+            background: linear-gradient(135deg, #0a84ff, #2e8eff);
+            color: #F5F5F5;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+            box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            background: linear-gradient(135deg, #202833, #1e272e);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+        }
+        .research ul {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1.2rem;
+            border-radius: 8px;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tansiv Jubayer</h1>
+        <p>Dynamic Computer Engineer | AI Enthusiast | Problem Solver</p>
+    </header>
+
+    <div class="container">
+        <section id="profile">
+            <h2>Profile</h2>
+            <div class="card">
+                <p>Dynamic and innovative professional with expertise in Artificial Intelligence, Machine Learning, and Data Analysis. Adept at developing cutting-edge solutions that integrate high-resolution geospatial data, advanced algorithms, and real-time analytics to solve complex problems. Passionate about advancing urban mobility and automation technologies.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Professional Skills</h2>
+            <div class="card">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Python, TensorFlow, PyTorch, SQL, MATLAB</li>
+                </ul>
+                <h3>Specializations</h3>
+                <ul>
+                    <li>Machine Learning, Deep Learning, Artificial Intelligence</li>
+                </ul>
+                <h3>Computer Programming</h3>
+                <ul>
+                    <li>Python, Java, C++, C Programming and others</li>
+                </ul>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Team Leadership, Problem Solving, Technical Communication</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Details</h2>
+            <div class="card contact">
+                <p>Email: <a href="mailto:tansiv.jubayer@example.com" class="btn">tansiv.jubayer@example.com</a></p>
+                <p>Phone: +8801837011572</p>
+                <p>Website: <a href="http://www.reallygreatsite.com" target="_blank" class="btn">www.reallygreatsite.com</a></p>
+                <p>Address: Khilgaon, Taltola, Dhaka, Bangladesh</p>
+            </div>
+        </section>
+
+        <section id="references">
+            <h2>Work References</h2>
+            <div class="card">
+                <p><strong>Nadiya Iglesias</strong><br>
+                Robotics Consultant, West State University<br>
+                <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a></p>
+
+                <p><strong>Donna Sootla</strong><br>
+                Engineer, Practical Systems<br>
+                <a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a></p>
+            </div>
+        </section>
+
+        <section id="research" class="research">
+            <h2>Research</h2>
+            <ul>
+                <li><strong>Detection of Sugarcane Leaf Diseases Using Custom CNN and ResNet 50</strong><br>
+                Presented at the 3rd International Conference on Innovations in Data Analytics (ICIDA 2024), organized by the International Knowledge Research Foundation in collaboration with Eminent College of Management and Technology, West Bengal, India.</li>
+                <li><strong>Earthquake Magnitude Prediction: A Survey on Machine Learning Models, Datasets, Techniques, Challenges, and Future Directions</strong><br>
+                Presented at the 3rd International Conference on Innovations in Data Analytics (ICIDA 2024).</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="card">
+                <p><strong>Internship at XYZ Tech Solutions</strong><br>
+                Assisted in developing machine learning models and provided data-driven insights for urban mobility projects.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Academic History</h2>
+            <div class="card">
+                <ul>
+                    <li><strong>East West University</strong><br>
+                    Bachelor of Science in Computer Science and Engineering</li>
+                    <li><strong>Ideal College, Dhanmondi</strong><br>
+                    Higher Secondary Education in Science, 2022</li>
+                    <li><strong>Motijheel Model School & College</strong><br>
+                    Secondary School Education in Science, 2018</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="center">
+            <a href="#top" class="btn">Back to Top</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tansiv Jubayer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
